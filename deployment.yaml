@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: aymendocker99/gitops-app:12
+      - image: aymendocker99/gitops-app:13
         name: flaskdemo
         ports:
         - containerPort: 5000

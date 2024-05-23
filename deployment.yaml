@@ -20,6 +20,8 @@ spec:
       containers:
       - image: aymendocker99/gitops-app:7
         name: flaskdemo
+        ports:
+        - containerPort: 5000
         resources: {}
 status: {}
 ---
